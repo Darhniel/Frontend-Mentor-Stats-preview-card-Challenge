@@ -1,0 +1,45 @@
+@media screen and (min-width: 1000px) {
+    body {
+        place-content: center;
+        display: grid
+    }
+    main {
+        display: grid;
+        grid-template-columns: 24rem 24rem;
+    }
+    div.card-picture {
+        border-top-left-radius: 0;
+        border-bottom-right-radius: .5rem
+    }
+    h1 {
+        text-align: left;
+        padding: 4rem 4rem 0;
+    }
+    p {
+        text-align: left;
+        padding: 1.5rem 4rem;
+        font-size: .7rem;
+    }
+    div.stats {
+        padding: 1.5rem 5rem 0 4rem;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        font-size: .7rem;
+    }
+    b {
+        font-size: 1rem;
+    }
+    img.mobile {
+        display: none;
+    }
+    img.desktop {
+        display: block;
+        width: 100%;
+        mix-blend-mode: multiply;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    
+}
